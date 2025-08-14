@@ -178,6 +178,10 @@ header {
         color: #ffffff;
     }
 
+    main.container {
+        padding-top: 100px;
+    }
+
     .container {
         max-width: var(--container-max);
         margin: 0 auto;
