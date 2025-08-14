@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Kimberly Reddick — Portfolio</title>
+    <meta
+      content="Portfolio of Kimberly Reddick — Web Developer, Automation, Identity Management"
+      name="description"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+    />
+
+    <link href="assets/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+<header>
+  <div class="container header-grid">
+    <!-- Left: Logo -->
+    <div class="header-left">
+      <img src="./assets/images/logo-color.png" alt="Kimberly Reddick logo" class="logo" />
+    </div>
+
+    <!-- Center: Name -->
+    <div class="header-center">
+      <h1>Kimberly Reddick</h1>
+    </div>
+
+    <!-- Right: Nav and Toggle -->
+    <div class="header-right">
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="btn btn-compact" aria-label="Toggle color theme">
+        <span id="theme-icon">🌙</span>
+      </button>
+    </div>
+  </div>
+</header>
+    <main class="container">
+      <section class="hero" id="top">
+        <div>
+          <span class="kicker">Web Developer · Automation · Identity</span>
+          <h2>Clean UIs, reliable APIs, and tools that save time.</h2>
+          <p class="lead">
+            I build modern, efficient web solutions and practical automation.
+            Former Microsoft 365 Support Engineer now focused on shipping
+            helpful products and clear documentation.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a
+              class="btn"
+              href="https://www.linkedin.com/in/kimreddick"
+              rel="noopener"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a
+              class="btn"
+              href="https://amazon.com/author/kimreddick"
+              rel="noopener"
+              target="_blank"
+              >Author Site</a
+            >
+          </div>
+        </div>
+        <div>
+          <div class="box">
+            <h3 style="margin-top: 0">Skills at a Glance</h3>
+            <p>• JavaScript, Python, HTML/CSS · PowerShell · Git/GitHub</p>
+            <p>
+              • Tools: VS Code, WebStorm, PyCharm · Entra ID · Microsoft 365
+            </p>
+            <p>
+              • Loves turning complex steps into simple guides people can follow
+            </p>
+          </div>
+          </div>
+      </section>
+      <section class="section" id="projects">
+        <h2>Featured Projects</h2>
+        <div class="card-grid" role="list">
+          <!-- Zombie Brain Freeze -->
+          <article class="card" role="article">
+            <h3>
+              <a
+                href="https://github.com/kimdevpro/Zombie-Brain-Freeze"
+                rel="noopener"
+                target="_blank"
+                >Zombie Brain Freeze</a
+              >
+            </h3>
+            <p>
+              A Unity-based <strong>zombie‑themed hangman</strong> game. C#
+              gameplay logic, scenes/levels, and playful visual feedback.<br>
+            </p>
+            <div class="meta">
+              <span class="pill">Unity</span>
+              <span class="pill">C#</span>
+              <span class="pill">Game Dev</span>
+            </div>
+          </article>
+          <!-- Battleship CLI -->
+          <article class="card" role="article">
+            <h3>
+              <a
+                href="https://github.com/kimdevpro/battleship-cli-app"
+                rel="noopener"
+                target="_blank"
+                >Battleship CLI App</a
+              >
+            </h3>
+            <p>
+              Classic Battleship in the terminal using <strong>Node.js</strong>.
+              Dynamic board, ship placement, turn logic, and input prompts.<br>
+            </p>
+            <div class="meta">
+              <span class="pill">Node.js</span>
+              <span class="pill">CLI</span>
+              <span class="pill">Algorithms</span>
+            </div>
+          </article>
+          <!-- JS Interactive Website -->
+          <article class="card" role="article">
+            <h3>
+              <a
+                href="https://github.com/kimdevpro/js-interactive-website"
+                rel="noopener"
+                target="_blank"
+                >JS Interactive Website</a
+              >
+            </h3>
+            <p>
+              Responsive, interactive website built with
+              <strong>HTML/CSS/JavaScript</strong>. Focus on clean UI and
+              engaging interactions.<br>
+            </p>
+            <div class="meta">
+              <span class="pill">JavaScript</span>
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="about">
+
+        <div class="about">
+          <div class="box">
+            <h2>About</h2>
+            <img src="./assets/images/ReddickHeadshots-7413.jpeg" alt="Kimberly Reddick Picture" class="profile-picture" />
+            <p>
+              Hi, I’m Kimberly — a developer and author who loves building
+              helpful software and explaining how it works. I’ve worked across
+              Microsoft 365, identity, and automation. These days I’m focused on
+              modern front‑end, practical scripting, and clear documentation
+              that helps people get things done.
+            </p>
+            <p>
+              When I’m not coding, I’m writing guides and stories. I believe
+              code is just another way to tell a story — with inputs, choices,
+              and satisfying endings.
+            </p>
+          </div>
+
+          <div class="box">
+            <h2>Skills &amp; Tools</h2>
+            <p>
+              <strong>Languages:</strong> JavaScript, Python, HTML/CSS,
+              PowerShell
+            </p>
+            <p><strong>Tools/IDEs:</strong> VS Code, WebStorm, PyCharm</p>
+            <p>
+              <strong>Platforms:</strong> Git/GitHub, Entra ID, Microsoft 365, Unity
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="about">
+          <div class="box">
+            <h2>Contact</h2>
+            <p>Want to collaborate or have a project in mind?</p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:kim.reddick@icloud.com">kim.reddick@icloud.com</a>
+            </p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://www.linkedin.com/in/kimreddick"
+                rel="noopener"
+                target="_blank"
+                >linkedin.com/in/kimreddick</a
+              >
+            </p>
+            <p>
+              <strong>Author Site:</strong>
+              <a
+                href="https://amazon.com/author/kimreddick"
+                rel="noopener"
+                target="_blank"
+                >author page</a
+              >
+            </p>
+          </div>
+          <div class="box">
+            <h2>Resume</h2>
+            <p>
+                Prefer a PDF?
+                <a
+                href="assets/resume/Kimberly_Reddick_Resume.pdf"
+                download="resume"
+                ><br>Download my resume</a>
+            </p>
+          </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+          "
+        >
+          <span>© <span id="year"></span> Kimberly Reddick</span>
+          <span style="color: var(--muted)"
+            >Built with HTML/CSS • Deployed on GitHub Pages</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Simple year stamp
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="./assets/js/theme-toggle.js"></script>
+  </body>
+</html>
