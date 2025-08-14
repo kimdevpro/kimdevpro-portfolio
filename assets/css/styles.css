@@ -58,7 +58,7 @@
 
 html, body {
     margin: 0;
-    padding: 80px;
+    padding: 24px;
     height: 100%;
     font-family: var(--font), sans-serif;
     color: var(--text);
@@ -345,6 +345,20 @@ header {
             font-size: var(--fs-xl);
         }
     }
+
+    @media (min-width: 768px) {
+        html, body {
+            padding: 80px;
+        }
+    }
+
+    @media (max-width: 620px) {
+        .container {
+            padding: var(--space-4);
+        }
+    }
+
+
 
     :target {
         scroll-margin-top: 155px;
